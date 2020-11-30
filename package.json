@@ -1,0 +1,32 @@
+{
+  "name": "ui5-mobx-state-tree",
+  "version": "1.0.0",
+  "description": "Mobx State Tree Library - UI5 Integration",
+  "keywords": [
+    "ui5",
+    "mobx",
+    "mobx state tree"
+  ],
+  "repository": "https://github.com/sammok83/ui5-middleware-route",
+  "author": "sammok83 <sam.mok83@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "browserify build/MobxModel.js -o MobxModel.js",
+    "compress-MobxModel": "browserify build/MobxModel.js | terser --compress --mangle > MobxModel.js",
+    "compress-MobxListBinding": "terser build/MobxListBinding.js --compress --mangle > MobxListBinding.js",
+    "compress-MobxPropertyBinding": "terser build/MobxPropertyBinding.js --compress --mangle > MobxPropertyBinding.js",
+    "compress-all": "npx run-p compress-MobxModel compress-MobxListBinding compress-MobxPropertyBinding",
+    "generate-sourcemap": "terser MobxModel.js --source-map --output MobxModel-dbg.js",
+    "watch-for-changes": "watchify build/MobxModel.js -o MobxModel.js -v"
+  },
+  "dependencies": {
+    "mobx": "^6.0.4",
+    "mobx-state-tree": "^4.0.2"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "terser": "^5.5.1",
+    "watchify": "^3.11.1"
+  }
+}
