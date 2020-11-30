@@ -10,7 +10,7 @@ To be updated...
 
 
 ## About Mobx
-👉 Official docs can be found at [Mobx](https://www.npmjs.com/package/mobx)
+👉 Official docs can be found at [Mobx](http://mobx-state-tree.js.org/)
 
 ## About Mobx State Tree
 👉 Official docs can be found at [Mobx State Tree](http://mobx-state-tree.js.org/)
