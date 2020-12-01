@@ -6,7 +6,7 @@ _UI5 Reactive State Management Framework with MobX / MobX State Tree. Integrated
 
 # Getting started
 
-To be updated...
+To be updated..
 
 
 ## About Mobx

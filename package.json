@@ -8,7 +8,7 @@
     "mobx state tree",
     "mst"
   ],
-  "repository": "https://github.com/sammok83/ui5-mobx-state-tree",
+  "repository": "https://github.com/sammok83/ui5-mobx-mst",
   "author": "sammok83 <sam.mok83@gmail.com>",
   "license": "MIT",
   "private": false,
