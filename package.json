@@ -1,13 +1,14 @@
 {
-  "name": "ui5-mobx-state-tree",
+  "name": "ui5-mobx-mst",
   "version": "1.0.0",
   "description": "Mobx State Tree Library - UI5 Integration",
   "keywords": [
     "ui5",
     "mobx",
-    "mobx state tree"
+    "mobx state tree",
+    "mst"
   ],
-  "repository": "https://github.com/sammok83/ui5-mobx-state-tree.git",
+  "repository": "https://github.com/sammok83/ui5-mobx-state-tree",
   "author": "sammok83 <sam.mok83@gmail.com>",
   "license": "MIT",
   "private": false,

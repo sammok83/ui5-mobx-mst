@@ -1,8 +1,8 @@
 <img src="img/UI5_MST_logo.png" alt="logo" height="120" align="right" />
 
-# ui5-mobx-state-tree
+# ui5-mobx-mst
 
-_UI5 Reactive State Management Framework with MobX State Tree. Integrated with the latest [Mobx 6](https://michel.codes/blogs/mobx6) package._
+_UI5 Reactive State Management Framework with MobX / MobX State Tree. Integrated with the latest [Mobx 6](https://michel.codes/blogs/mobx6) package._
 
 # Getting started
 
