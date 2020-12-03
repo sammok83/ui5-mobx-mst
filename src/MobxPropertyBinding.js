@@ -1,5 +1,4 @@
 /* global mobx */
-//const mobx = require("mobx");
 
 sap.ui.define(["sap/ui/model/ChangeReason", "sap/ui/model/PropertyBinding"],
 	function (ChangeReason, PropertyBinding) {

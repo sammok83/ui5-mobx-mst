@@ -2,16 +2,13 @@
 window.mobx = require("mobx");
 window.mobxStateTree = require("mobx-state-tree");
 
-//jQuery.sap.require({modName: "node_modules.mobx.dist.mobx", type: "umd.production.min"});
-//jQuery.sap.require({modName: "node_modules.mobx-state-tree.dist.mobx-state-tree", type: "umd"});
-
 // For Older browsers compatibility
 mobx.configure({
     useProxies: "never"
 });
 
-sap.ui.define(["sap/ui/model/Model", "sap/ui/model/Context", "./MobxListBinding", "./MobxPropertyBinding"],
-	function(Model, Context, MobxListBinding, MobxPropertyBinding) {
+sap.ui.define(["sap/ui/model/Model", "./MobxListBinding", "./MobxPropertyBinding"],
+	function(Model, MobxListBinding, MobxPropertyBinding) {
 		"use strict";
 
 		function isNil(value) {

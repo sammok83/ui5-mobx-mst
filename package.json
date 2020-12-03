@@ -1,6 +1,6 @@
 {
   "name": "ui5-mobx-mst",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Mobx State Tree Library - UI5 Integration",
   "keywords": [
     "ui5",
@@ -13,13 +13,13 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "browserify build/MobxModel.js -o MobxModel.js",
-    "compress-MobxModel": "browserify build/MobxModel.js | terser --compress --mangle > MobxModel.js",
-    "compress-MobxListBinding": "terser build/MobxListBinding.js --compress --mangle > MobxListBinding.js",
-    "compress-MobxPropertyBinding": "terser build/MobxPropertyBinding.js --compress --mangle > MobxPropertyBinding.js",
+    "build": "browserify src/MobxModel.js -o MobxModel.js",
+    "compress-MobxModel": "browserify src/MobxModel.js | terser --compress --mangle > MobxModel.js",
+    "compress-MobxListBinding": "terser src/MobxListBinding.js --compress --mangle > MobxListBinding.js",
+    "compress-MobxPropertyBinding": "terser src/MobxPropertyBinding.js --compress --mangle > MobxPropertyBinding.js",
     "compress-all": "npx run-p compress-MobxModel compress-MobxListBinding compress-MobxPropertyBinding",
     "generate-sourcemap": "terser MobxModel.js --source-map --output MobxModel-dbg.js",
-    "watch-for-changes": "watchify build/MobxModel.js -o MobxModel.js -v"
+    "watch-for-changes": "watchify src/MobxModel.js -o MobxModel.js -v"
   },
   "dependencies": {
     "mobx": "^6.0.4",
